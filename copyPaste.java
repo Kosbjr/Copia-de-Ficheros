@@ -19,6 +19,7 @@ public class copyPaste {
 			String linea;
 			while((linea = inputStream.readLine())!=null) {
 				outputStream.println(linea);
+				System.out.println("La operación se realizó con éxito");
 			}
 			
 			}finally{
