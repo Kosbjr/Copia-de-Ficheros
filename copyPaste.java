@@ -24,6 +24,7 @@ public class copyPaste {
 			
 			}finally{
 				if(inputStream != null) {
+					System.out.println("Nada más que copiar");
 					inputStream.close();
 				}
 				if(outputStream !=null) {
